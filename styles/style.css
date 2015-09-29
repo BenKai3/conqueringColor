@@ -1,7 +1,37 @@
 * {
 	margin: 0px auto;
 }
-.white {
+[color=white] {
+	background-color: white;
+}
+[color=black] {
+	background-color: black;
+}
+[color=blue] {
+	background-color: blue;
+}
+[color=red] {
+	background-color: red;
+}
+[color=green] {
+	background-color: green;
+}
+[color=turquoise] {
+	background-color: turquoise;
+}
+[color=brown] {
+	background-color: brown;
+}
+[color=yellow] {
+	background-color: yellow;
+}
+[color=orange] {
+	background-color: orange;
+}
+[color=purple] {
+	background-color: purple;
+}
+/*.white {
 	background-color: white;
 }
 .black {
@@ -30,7 +60,7 @@
 }
 .purple {
 	background-color: purple;
-}
+}*/
 .square {
 	width:50px;
 	height:50px;
