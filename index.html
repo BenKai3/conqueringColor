@@ -1,15 +1,18 @@
 <html>
-<head>
-	<title>Conquering Color</title>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	<script type="text/javascript" src="scripts/script.js"></script>
-	<link rel="stylesheet" type="text/css" href="styles/style.css">
-</head>
-<body>
-	<div id="scoreboard">
-		<button onclick="reset_gameboard()">reset</button>
-	</div>
-	<div id="gameboard">
-	</div>
-</body>
+	<head>
+		<title>Conquering Color</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script type="text/javascript" src="scripts/script.js"></script>
+		<link rel="stylesheet" type="text/css" href="styles/style.css">
+	</head>
+	<body>
+		<div id="scoreboard">
+			<button onclick="reset_gameboard()">reset</button>
+			<h2>Score:</h2>
+			<h1 id="total-conquered">0 / 100</h1>
+			<h2>Number of Clicks:</h2>
+			<h1 id="num-clicks">0</h1>
+		</div>
+		<div id="gameboard"></div>
+	</body>
 </html>
